@@ -23,6 +23,7 @@
             android:layout_weight="1">
 
             <Button
+                android:background="@drawable/button_style"
                 android:text="Смарцелов"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -132,6 +133,7 @@
                 android:layout_weight="1" />
 
             <Button
+                android:background="@drawable/button_style"
                 android:text="Сброс"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
