@@ -26,12 +26,13 @@
                 android:background="@drawable/button_style"
                 android:text="Смарцелов"
                 android:layout_width="0dp"
-                android:layout_height="match_parent"
                 android:id="@+id/button3"
                 android:layout_weight="1"
-                android:onClick="button3_OnClick" />
+                android:onClick="button3_OnClick"
+                android:layout_height="match_parent" />
 
             <Button
+                android:background="@drawable/button_style"
                 android:text="Демянчук"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -40,6 +41,7 @@
                 android:onClick="button2_OnClick" />
 
             <Button
+                android:background="@drawable/button_style"
                 android:text="Синицкий"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -56,6 +58,7 @@
             android:layout_weight="1">
 
             <Button
+                android:background="@drawable/button_style"
                 android:text="Матвиенко"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -64,6 +67,7 @@
                 android:onClick="button6_OnClick" />
 
             <Button
+                android:background="@drawable/button_style"
                 android:text="Литвяк"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -72,6 +76,7 @@
                 android:onClick="button5_OnClick" />
 
             <Button
+                android:background="@drawable/button_style"
                 android:text="Генрих"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -87,6 +92,7 @@
             android:layout_weight="1">
 
             <Button
+                android:background="@drawable/button_style"
                 android:text="Емец"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -95,6 +101,7 @@
                 android:onClick="button9_OnClick" />
 
             <Button
+                android:background="@drawable/button_style"
                 android:text="Федорченко"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -103,6 +110,7 @@
                 android:onClick="button8_OnClick" />
 
             <Button
+                android:background="@drawable/button_style"
                 android:text="Денис"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -118,6 +126,7 @@
             android:layout_weight="1">
 
             <Button
+                android:background="@drawable/button_style"
                 android:text="Некрасов"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -126,6 +135,7 @@
                 android:onClick="button12_OnClick" />
 
             <Button
+                android:background="@drawable/button_style"
                 android:text="Путин - "
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -133,7 +143,7 @@
                 android:layout_weight="1" />
 
             <Button
-                android:background="@drawable/button_style"
+                android:background="@drawable/button_style_cancel"
                 android:text="Сброс"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
