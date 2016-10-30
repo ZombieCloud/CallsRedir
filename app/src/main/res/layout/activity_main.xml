@@ -14,22 +14,26 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_centerHorizontal="true"
-        android:layout_alignParentTop="true">
+        android:layout_alignParentTop="true"
+        android:padding="0dp">
 
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1">
+            android:layout_weight="1"
+            android:padding="8dp">
 
             <Button
                 android:background="@drawable/button_style"
                 android:text="Смарцелов"
-                android:layout_width="0dp"
                 android:id="@+id/button3"
                 android:layout_weight="1"
                 android:onClick="button3_OnClick"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:padding="0dp"
+                android:layout_margin="3dp" />
 
             <Button
                 android:background="@drawable/button_style"
@@ -38,7 +42,9 @@
                 android:layout_height="match_parent"
                 android:id="@+id/button2"
                 android:layout_weight="1"
-                android:onClick="button2_OnClick" />
+                android:onClick="button2_OnClick"
+                android:layout_margin="3dp"
+                android:padding="0dp" />
 
             <Button
                 android:background="@drawable/button_style"
@@ -48,14 +54,17 @@
                 android:id="@+id/button1"
                 android:layout_weight="1"
                 android:elevation="12dp"
-                android:onClick="button1_OnClick" />
+                android:layout_margin="3dp"
+                android:onClick="button1_OnClick"
+                android:padding="0dp" />
         </LinearLayout>
 
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1">
+            android:layout_weight="1"
+            android:padding="8dp">
 
             <Button
                 android:background="@drawable/button_style"
@@ -63,6 +72,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:id="@+id/button6"
+                android:layout_margin="3dp"
                 android:layout_weight="1"
                 android:onClick="button6_OnClick" />
 
@@ -72,6 +82,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:id="@+id/button5"
+                android:layout_margin="3dp"
                 android:layout_weight="1"
                 android:onClick="button5_OnClick" />
 
@@ -81,6 +92,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:id="@+id/button4"
+                android:layout_margin="3dp"
                 android:layout_weight="1"
                 android:onClick="button4_OnClick" />
         </LinearLayout>
@@ -89,7 +101,8 @@
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1">
+            android:layout_weight="1"
+            android:padding="8dp">
 
             <Button
                 android:background="@drawable/button_style"
@@ -97,6 +110,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:id="@+id/button9"
+                android:layout_margin="3dp"
                 android:layout_weight="1"
                 android:onClick="button9_OnClick" />
 
@@ -106,6 +120,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:id="@+id/button8"
+                android:layout_margin="3dp"
                 android:layout_weight="1"
                 android:onClick="button8_OnClick" />
 
@@ -115,6 +130,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:id="@+id/button7"
+                android:layout_margin="3dp"
                 android:layout_weight="1"
                 android:onClick="button7_OnClick" />
         </LinearLayout>
@@ -123,7 +139,8 @@
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1">
+            android:layout_weight="1"
+            android:padding="8dp">
 
             <Button
                 android:background="@drawable/button_style"
@@ -131,6 +148,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:id="@+id/button12"
+                android:layout_margin="3dp"
                 android:layout_weight="1"
                 android:onClick="button12_OnClick" />
 
@@ -139,8 +157,10 @@
                 android:text="Путин - "
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
+                android:layout_margin="3dp"
                 android:id="@+id/button11"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:onClick="button11_OnClick" />
 
             <Button
                 android:background="@drawable/button_style_cancel"
@@ -148,6 +168,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:id="@+id/button10"
+                android:layout_margin="3dp"
                 android:layout_weight="1"
                 android:onClick="button10_OnClick" />
         </LinearLayout>

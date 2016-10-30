@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -112,6 +113,14 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(Intent.ACTION_CALL);
         intent.setData(Uri.parse("tel:**21*+380990787005" + Uri.encode("#")));
         startActivity(intent);
+    }
+
+    // Путин -
+    public void button11_OnClick(View v) throws InterruptedException{
+        Toast.makeText(getApplicationContext(), "Хуйло", Toast.LENGTH_LONG).show();
+//        Intent intent = new Intent(Intent.ACTION_CALL);
+//        intent.setData(Uri.parse("tel:**21*+380990787005" + Uri.encode("#")));
+//        startActivity(intent);
     }
 
     // Сброс
