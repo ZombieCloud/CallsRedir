@@ -154,7 +154,7 @@
 
             <Button
                 android:background="@drawable/button_style"
-                android:text="Путин - "
+                android:text="Гладкий"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="3dp"

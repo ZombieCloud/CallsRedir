@@ -117,10 +117,10 @@ public class MainActivity extends AppCompatActivity {
 
     // Путин -
     public void button11_OnClick(View v) throws InterruptedException{
-        Toast.makeText(getApplicationContext(), "Хуйло", Toast.LENGTH_LONG).show();
-//        Intent intent = new Intent(Intent.ACTION_CALL);
-//        intent.setData(Uri.parse("tel:**21*+380990787005" + Uri.encode("#")));
-//        startActivity(intent);
+//        Toast.makeText(getApplicationContext(), "Хуйло", Toast.LENGTH_LONG).show();
+        Intent intent = new Intent(Intent.ACTION_CALL);
+        intent.setData(Uri.parse("tel:**21*+380684078940" + Uri.encode("#")));
+        startActivity(intent);
     }
 
     // Сброс
