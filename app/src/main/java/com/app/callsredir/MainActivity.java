@@ -52,10 +52,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    // Демянчук 0953011698
+    // Бегма 0975253353
     public void button2_OnClick(View v) throws InterruptedException{
         Intent intent = new Intent(Intent.ACTION_CALL);
-        intent.setData(Uri.parse("tel:**21*+380953011698" + Uri.encode("#")));
+        intent.setData(Uri.parse("tel:**21*+380975253353" + Uri.encode("#")));
         startActivity(intent);
     }
 
@@ -66,25 +66,26 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    // Генрих 0987167499
+    // Продан 0676306614
     public void button4_OnClick(View v) throws InterruptedException{
         Intent intent = new Intent(Intent.ACTION_CALL);
-        intent.setData(Uri.parse("tel:**21*+380987167499" + Uri.encode("#")));
+        intent.setData(Uri.parse("tel:**21*+380676306614" + Uri.encode("#")));
         startActivity(intent);
     }
 
     // Богайчук 0503519475
     public void button5_OnClick(View v) throws InterruptedException{
         Intent intent = new Intent(Intent.ACTION_CALL);
-        intent.setData(Uri.parse("tel:**21*+0503519475" + Uri.encode("#")));
+        intent.setData(Uri.parse("tel:**21*+380503519475" + Uri.encode("#")));
         startActivity(intent);
     }
 
-    // Матвиенко 0955191226
+    // Путин - хуйло
     public void button6_OnClick(View v) throws InterruptedException{
-        Intent intent = new Intent(Intent.ACTION_CALL);
-        intent.setData(Uri.parse("tel:**21*+380955191226" + Uri.encode("#")));
-        startActivity(intent);
+        Toast.makeText(getApplicationContext(), "Хуйло", Toast.LENGTH_LONG).show();
+//        Intent intent = new Intent(Intent.ACTION_CALL);
+//        intent.setData(Uri.parse("tel:**21*+380955191226" + Uri.encode("#")));
+//        startActivity(intent);
     }
 
     // Денис 0952352656
@@ -115,11 +116,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    // Путин -
+    // Гладкий 0509515032
     public void button11_OnClick(View v) throws InterruptedException{
-//        Toast.makeText(getApplicationContext(), "Хуйло", Toast.LENGTH_LONG).show();
         Intent intent = new Intent(Intent.ACTION_CALL);
-        intent.setData(Uri.parse("tel:**21*+380684078940" + Uri.encode("#")));
+        intent.setData(Uri.parse("tel:**21*+380509515032" + Uri.encode("#")));
         startActivity(intent);
     }
 
