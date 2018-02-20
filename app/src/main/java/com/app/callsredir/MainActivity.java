@@ -45,10 +45,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    // Синицкий 0504210344
+    // Синицкий 0504846982
     public void button1_OnClick(View v) throws InterruptedException{
         Intent intent = new Intent(Intent.ACTION_CALL);
-        intent.setData(Uri.parse("tel:**21*+380504210344" + Uri.encode("#")));
+        intent.setData(Uri.parse("tel:**21*+380504846982" + Uri.encode("#")));
         startActivity(intent);
     }
 
