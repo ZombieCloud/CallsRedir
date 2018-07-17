@@ -25,15 +25,15 @@
             android:padding="8dp">
 
             <Button
-                android:background="@drawable/button_style"
-                android:text="Смарцелов"
                 android:id="@+id/button3"
-                android:layout_weight="1"
-                android:onClick="button3_OnClick"
-                android:layout_height="match_parent"
                 android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_style"
+                android:onClick="button3_OnClick"
                 android:padding="0dp"
-                android:layout_margin="3dp" />
+                android:text="Листопад" />
 
             <Button
                 android:id="@+id/button2"
@@ -74,7 +74,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_style"
                 android:onClick="button6_OnClick"
-                android:text="Путин" />
+                android:text="Гладкий" />
 
             <Button
                 android:id="@+id/button5"
@@ -153,14 +153,14 @@
                 android:onClick="button12_OnClick" />
 
             <Button
-                android:background="@drawable/button_style"
-                android:text="Гладкий"
+                android:id="@+id/button11"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="3dp"
-                android:id="@+id/button11"
                 android:layout_weight="1"
-                android:onClick="button11_OnClick" />
+                android:background="@drawable/button_style"
+                android:onClick="button11_OnClick"
+                android:text="Путин" />
 
             <Button
                 android:background="@drawable/button_style_cancel"
