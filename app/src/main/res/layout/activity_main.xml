@@ -44,7 +44,7 @@
                 android:background="@drawable/button_style"
                 android:onClick="button2_OnClick"
                 android:padding="0dp"
-                android:text="Бегма" />
+                android:text="Оля" />
 
             <Button
                 android:background="@drawable/button_style"
