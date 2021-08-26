@@ -109,10 +109,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    // Некрасов 0990787005
+    // Некрасов 0503200855
     public void button12_OnClick(View v) throws InterruptedException{
         Intent intent = new Intent(Intent.ACTION_CALL);
-        intent.setData(Uri.parse("tel:**21*+380990787005" + Uri.encode("#")));
+        intent.setData(Uri.parse("tel:**21*+380503200855" + Uri.encode("#")));
         startActivity(intent);
     }
 
