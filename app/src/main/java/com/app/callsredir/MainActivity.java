@@ -59,17 +59,17 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    // Листопад 0675239504
+    // Плисак Вячеслав 0504213404
     public void button3_OnClick(View v) throws InterruptedException{
         Intent intent = new Intent(Intent.ACTION_CALL);
-        intent.setData(Uri.parse("tel:**21*+380675239504" + Uri.encode("#")));
+        intent.setData(Uri.parse("tel:**21*+380504213404" + Uri.encode("#")));
         startActivity(intent);
     }
 
-    // Бережной 0971388257
+    // Деркач 0986283580
     public void button4_OnClick(View v) throws InterruptedException{
         Intent intent = new Intent(Intent.ACTION_CALL);
-        intent.setData(Uri.parse("tel:**21*+380971388257" + Uri.encode("#")));
+        intent.setData(Uri.parse("tel:**21*+380986283580" + Uri.encode("#")));
         startActivity(intent);
     }
 
