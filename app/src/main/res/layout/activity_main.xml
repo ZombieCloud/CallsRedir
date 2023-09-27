@@ -33,7 +33,7 @@
                 android:background="@drawable/button_style"
                 android:onClick="button3_OnClick"
                 android:padding="0dp"
-                android:text="Плисак" />
+                android:text="Марина" />
 
             <Button
                 android:id="@+id/button2"
