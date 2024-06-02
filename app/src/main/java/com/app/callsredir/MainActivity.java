@@ -80,12 +80,12 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    // Путин - хуйло
+    // Самойленко 0994366323 (Путин - хуйло)
     public void button11_OnClick(View v) throws InterruptedException{
-        Toast.makeText(getApplicationContext(), "Хуйло", Toast.LENGTH_LONG).show();
-//        Intent intent = new Intent(Intent.ACTION_CALL);
-//        intent.setData(Uri.parse("tel:**21*+380955191226" + Uri.encode("#")));
-//        startActivity(intent);
+//        Toast.makeText(getApplicationContext(), "Хуйло", Toast.LENGTH_LONG).show();
+        Intent intent = new Intent(Intent.ACTION_CALL);
+        intent.setData(Uri.parse("tel:**21*+380994366323" + Uri.encode("#")));
+        startActivity(intent);
     }
 
     // Литвяк 0952351017
@@ -109,10 +109,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    // Некрасов 0503200855
+    // Матвиенко 0972803370
     public void button12_OnClick(View v) throws InterruptedException{
         Intent intent = new Intent(Intent.ACTION_CALL);
-        intent.setData(Uri.parse("tel:**21*+380503200855" + Uri.encode("#")));
+        intent.setData(Uri.parse("tel:**21*+380972803370" + Uri.encode("#")));
         startActivity(intent);
     }
 
