@@ -84,7 +84,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/button_style"
                 android:onClick="button5_OnClick"
-                android:text="Богайчук" />
+                android:text="Ханенко" />
 
             <Button
                 android:id="@+id/button4"
